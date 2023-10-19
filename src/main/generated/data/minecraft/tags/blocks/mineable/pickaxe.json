@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "upgraded-hoppers:iron_hopper",
+    "upgraded-hoppers:copper_hopper",
+    "upgraded-hoppers:gold_hopper",
+    "upgraded-hoppers:emerald_hopper",
+    "upgraded-hoppers:diamond_hopper",
+    "upgraded-hoppers:obsidian_hopper",
+    "upgraded-hoppers:netherite_hopper"
+  ]
+}

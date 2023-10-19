@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "H": {
+      "item": "upgraded-hoppers:emerald_hopper"
+    },
+    "M": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MHM",
+    " M "
+  ],
+  "result": {
+    "item": "upgraded-hoppers:diamond_hopper"
+  },
+  "show_notification": true
+}

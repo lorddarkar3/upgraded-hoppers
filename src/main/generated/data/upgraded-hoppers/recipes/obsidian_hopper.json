@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "H": {
+      "item": "upgraded-hoppers:diamond_hopper"
+    },
+    "M": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MHM",
+    " M "
+  ],
+  "result": {
+    "item": "upgraded-hoppers:obsidian_hopper"
+  },
+  "show_notification": true
+}

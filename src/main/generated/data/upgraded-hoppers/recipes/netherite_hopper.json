@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "H": {
+      "item": "upgraded-hoppers:obsidian_hopper"
+    },
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MHM",
+    " M "
+  ],
+  "result": {
+    "item": "upgraded-hoppers:netherite_hopper"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "upgraded-hoppers",
+	"version": "${version}",
+	"name": "Upgraded Hoppers",
+	"description": "Upgraded Hoppers, a simple solution to common hopper needs.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/upgraded-hoppers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.missingservices.upgradedhoppers.UpgradedHoppers"
+		],
+		"client": [
+			"com.missingservices.upgradedhoppers.UpgradedHoppersClient"
+		],
+		"fabric-datagen": [
+			"com.missingservices.upgradedhoppers.UpgradedHoppersDataGenerator"
+		]
+	},
+	"mixins": [
+		"upgraded-hoppers.mixins.json",
+		{
+			"config": "upgraded-hoppers.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

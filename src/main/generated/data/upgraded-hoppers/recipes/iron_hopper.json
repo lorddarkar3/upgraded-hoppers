@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "M": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MHM",
+    " M "
+  ],
+  "result": {
+    "item": "upgraded-hoppers:iron_hopper"
+  },
+  "show_notification": true
+}
