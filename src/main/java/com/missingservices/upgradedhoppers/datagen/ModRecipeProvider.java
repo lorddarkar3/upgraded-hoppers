@@ -21,12 +21,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 		super(output);
 	}
 	
-	private static void recipeUpgradedHopper(Consumer<RecipeJsonProvider> exporter, Item ironIngot, ItemConvertible source, Block result) {
-		ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, result,1)
+	private static void recipeUpgradedHopper(Consumer<RecipeJsonProvider> exporter, Item material, ItemConvertible source, Block result) {
+		ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, result, 1)
 		.pattern("M M")
 		.pattern("MHM")
 		.pattern(" M ")
-		.input('M', ironIngot)
+		.input('M', material)
 		.input('H', source)
 		.criterion(hasItem(source), conditionsFromItem(source))
 		.offerTo(exporter, new Identifier(getRecipeName(result)));
@@ -41,6 +41,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 		recipeUpgradedHopper(exporter, Items.DIAMOND, ModBlocks.EMERALD_HOPPER, ModBlocks.DIAMOND_HOPPER);
 		recipeUpgradedHopper(exporter, Items.OBSIDIAN, ModBlocks.DIAMOND_HOPPER, ModBlocks.OBSIDIAN_HOPPER);
 		recipeUpgradedHopper(exporter, Items.NETHERITE_INGOT, ModBlocks.OBSIDIAN_HOPPER, ModBlocks.NETHERITE_HOPPER);
+		ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.BEACON_HOPPER, 1)
+		.pattern("S S")
+		.pattern("OHO")
+		.pattern(" O ")
+		.input('S', Items.NETHER_STAR)
+		.input('H', ModBlocks.NETHERITE_HOPPER)
+		.input('O', Items.OBSIDIAN)
+		.criterion(hasItem(ModBlocks.NETHERITE_HOPPER), conditionsFromItem(ModBlocks.NETHERITE_HOPPER))
+		.offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BEACON_HOPPER)));
 	}
 
 }

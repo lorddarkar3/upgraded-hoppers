@@ -32,6 +32,8 @@ public class ModBlocks {
 			new UpgradedHopperBlock(FabricBlockSettings.copyOf(Blocks.HOPPER).sounds(BlockSoundGroup.STONE).strength(50, 1200),2));
 	public static final Block NETHERITE_HOPPER = registerBlock("netherite_hopper",
 			new UpgradedHopperBlock(FabricBlockSettings.copyOf(Blocks.HOPPER).sounds(BlockSoundGroup.NETHERITE).strength(50, 1200),1));
+	public static final Block BEACON_HOPPER = registerBlock("beacon_hopper",
+			new UpgradedHopperBlock(FabricBlockSettings.copyOf(Blocks.HOPPER).sounds(BlockSoundGroup.GLASS).strength(3, 3),0));
 
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
@@ -50,6 +52,7 @@ public class ModBlocks {
 		entries.add(DIAMOND_HOPPER);
 		entries.add(OBSIDIAN_HOPPER);
 		entries.add(NETHERITE_HOPPER);
+		entries.add(BEACON_HOPPER);
 	}
 	
 	public static void registerModBlocks() {

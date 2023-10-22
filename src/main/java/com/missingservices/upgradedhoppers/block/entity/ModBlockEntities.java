@@ -15,7 +15,7 @@ public class ModBlockEntities {
 			Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(UpgradedHoppers.MOD_ID, "upgraded_hopper_be"),
 				FabricBlockEntityTypeBuilder.create(UpgradedHopperBlockEntity::new,
 					ModBlocks.IRON_HOPPER, ModBlocks.COPPER_HOPPER, ModBlocks.GOLD_HOPPER, ModBlocks.EMERALD_HOPPER, ModBlocks.DIAMOND_HOPPER,
-						ModBlocks.OBSIDIAN_HOPPER, ModBlocks.NETHERITE_HOPPER).build());
+						ModBlocks.OBSIDIAN_HOPPER, ModBlocks.NETHERITE_HOPPER, ModBlocks.BEACON_HOPPER).build());
 	
 		public static void registerBlockEntities() {
 			UpgradedHoppers.LOGGER.info("Registering Block Entities for " + UpgradedHoppers.MOD_ID);

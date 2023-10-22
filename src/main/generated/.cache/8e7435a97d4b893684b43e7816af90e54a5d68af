@@ -1,8 +1,9 @@
-// 1.20.1	2023-10-18T15:01:55.7498616	Upgraded Hoppers/Block Loot Tables
-4be82056c248c8c4700aebc6e10033efe5ceea5b data\upgraded-hoppers\loot_tables\blocks\obsidian_hopper.json
+// 1.20.1	2023-10-21T19:29:44.3568768	Upgraded Hoppers/Block Loot Tables
 c90779aa824a47cedc769495f00785f344b298a1 data\upgraded-hoppers\loot_tables\blocks\diamond_hopper.json
+4be82056c248c8c4700aebc6e10033efe5ceea5b data\upgraded-hoppers\loot_tables\blocks\obsidian_hopper.json
 a46f037fced393fed17c475d3218105e31427a32 data\upgraded-hoppers\loot_tables\blocks\iron_hopper.json
-f8cfdb83c69c0172f25a22770045d77d28a7d258 data\upgraded-hoppers\loot_tables\blocks\netherite_hopper.json
-ce2f76ff1f9597367dedb856387e2065d6fa4e26 data\upgraded-hoppers\loot_tables\blocks\gold_hopper.json
 2aeb670e4c663dc466710957060367255821722b data\upgraded-hoppers\loot_tables\blocks\copper_hopper.json
+ce2f76ff1f9597367dedb856387e2065d6fa4e26 data\upgraded-hoppers\loot_tables\blocks\gold_hopper.json
 d40bd714af764a656947150f2890e9205e52bf2a data\upgraded-hoppers\loot_tables\blocks\emerald_hopper.json
+f8cfdb83c69c0172f25a22770045d77d28a7d258 data\upgraded-hoppers\loot_tables\blocks\netherite_hopper.json
+896c090d19657c71fe3bc86cbdbbab10b18fc3f1 data\upgraded-hoppers\loot_tables\blocks\beacon_hopper.json

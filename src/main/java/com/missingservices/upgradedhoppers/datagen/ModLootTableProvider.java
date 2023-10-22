@@ -21,6 +21,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 		addDrop(ModBlocks.DIAMOND_HOPPER);
 		addDrop(ModBlocks.OBSIDIAN_HOPPER);
 		addDrop(ModBlocks.NETHERITE_HOPPER);
+		addDrop(ModBlocks.BEACON_HOPPER);
 	}
 
 }
