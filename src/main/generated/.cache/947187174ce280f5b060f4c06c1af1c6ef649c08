@@ -1,5 +1,5 @@
-// 1.20.1	2023-10-21T19:29:44.3558778	Upgraded Hoppers/Tags for minecraft:block
+// 1.20.1	2023-10-21T21:14:14.986603	Upgraded Hoppers/Tags for minecraft:block
 198fa3fb9172098cb781207caa53f94eea1e1cfc data\minecraft\tags\blocks\needs_stone_tool.json
 1585246cb8487f94f6dcaf9308ce648b2eed32b5 data\minecraft\tags\blocks\needs_diamond_tool.json
-2aee3b68638784375eaf3c894c3954901d7760fb data\minecraft\tags\blocks\mineable\pickaxe.json
+d1369331c710f90618ba7ee3ca87660185ca0666 data\minecraft\tags\blocks\mineable\pickaxe.json
 4d5c563a4196b153889e3667208d9bb0352c753a data\minecraft\tags\blocks\needs_iron_tool.json

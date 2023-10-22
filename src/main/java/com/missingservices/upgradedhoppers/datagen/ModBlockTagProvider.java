@@ -25,7 +25,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 		.add(ModBlocks.EMERALD_HOPPER)
 		.add(ModBlocks.DIAMOND_HOPPER)
 		.add(ModBlocks.OBSIDIAN_HOPPER)
-		.add(ModBlocks.NETHERITE_HOPPER);
+		.add(ModBlocks.NETHERITE_HOPPER)
+		.add(ModBlocks.BEACON_HOPPER);
 		
 		getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
 		.add(ModBlocks.COPPER_HOPPER)
@@ -39,9 +40,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 		getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 		.add(ModBlocks.OBSIDIAN_HOPPER)
 		.add(ModBlocks.NETHERITE_HOPPER);
-		
-		getOrCreateTagBuilder(BlockTags.)
-		.add(ModBlocks.BEACON_HOPPER);
 	}
 
 }
