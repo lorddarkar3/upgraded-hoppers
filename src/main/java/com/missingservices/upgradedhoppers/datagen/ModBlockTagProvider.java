@@ -39,6 +39,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 		getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 		.add(ModBlocks.OBSIDIAN_HOPPER)
 		.add(ModBlocks.NETHERITE_HOPPER);
+		
+		getOrCreateTagBuilder(BlockTags.)
+		.add(ModBlocks.BEACON_HOPPER);
 	}
 
 }
