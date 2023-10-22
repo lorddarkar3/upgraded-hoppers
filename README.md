@@ -18,13 +18,34 @@ Upgraded Hoppers is a simple Vanilla+ mod adding new faster hoppers that can be 
 <img src="https://i.imgur.com/XwqbsQh.png" alt="Obsidian Hopper Recipe"><br>
 <br><b>Netherite Hopper</b><br>
 <img src="https://i.imgur.com/cpxCUbY.png" alt="Netherite Hopper Recipe"><br>
+<br><b>Beacon Hopper</b><br>
+<img src="https://i.imgur.com/IAHB9P9.png" alt="Beacon Hopper Recipe"><br>
 </details>
 <br>
-Currently, that's as simple as it is, each tier lowers the transfer speed by 1 tick.
-<br>This is my first mod, and mostly just an experiment, but I hope to add new features over time.
+<details>
+<summary>Hopper Tick Speeds</summary>
+<ul>
+<li>Iron Hopper: 7 Ticks</li>
+<li>Copper Hopper: 6 Ticks</li>
+<li>Gold Hopper: 5 Ticks</li>
+<li>Emerald Hopper: 4 Ticks</li>
+<li>Diamond Hopper: 3 Ticks</li>
+<li>Obsidian Hopper: 2 Ticks</li>
+<li>Netherite Hopper: 1 Tick</li>
+<li>Beacon Hopper: "0" Ticks (Read Below)</li>
+</details>
+<br><br>Beacon Hoppers are the most powerful of the hopper tiers.<br>
+Rather than funnel items through each hopper, it searches for the last Beacon Hopper in the hopper chain and directly deposits items there.
+Note that the Beacon Hopper technically has a 1 tick delay, but due to the chaining mechanic this essentially means it transfers one item to the end of the chain per tick (x amount of hoppers = 1 tick)
+Due to the way Beacon Hoppers work, it is not possible to place a hopper below one to funnel items out that aren't directly funneled downward. (This will be fixed in a later version)
+<img src="https://i.imgur.com/TM0ooiJ.gif" alt="Showcase of Beacon Hoppers">
+<br><br>This is my first mod and mostly just an experiment, but I hope to add new features over time.
 <br><br>Some ideas I had but can't guarantee implementation of:
 <ul>
 <li>Copper Hopper oxidation, each oxidation level doubling the transfer speed. (Sounds useless, but slower hoppers could prove useful for redstone contraptions) This would come with waxable copper hoppers.</li>
-<li>Multi-item transfer, instead of moving one item at a time, move multiple for every "transfer" (Maybe some sort of item input slot for the "stack upgrade"?)</li>
-<li>Instant Hoppers (Beacon Hoppers?) 0 tick transfer speed, used in a chain would funnel the items from the top connection immediately to the last. (Would need to ensure no loops exist, for obvious reasons) This idea would nullify the Multi-item concept and may be too unbalanced. Possibly a good idea for an add-on mod?</li>
+<li>Multi-item transfer, instead of moving one item at a time, move multiple for every "transfer" (Maybe some sort of item input slot for the "stack upgrade"?) </li>
 </ul>
+
+# I program as a hobby.
+##### Do not expect ports to older versions or different loaders.
+You are free to use the source code to port the mod yourself as long as you provide proper credit.
